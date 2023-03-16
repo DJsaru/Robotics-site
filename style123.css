@@ -1,0 +1,204 @@
+.navbar
+{
+    background-color: #f7b731;
+}
+
+
+
+.bgimage {
+
+    height:100vh;
+   background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+    background-size:cover;
+   /* position:relative;*/
+}
+@media only screen and (max-width:600px) {
+    
+.bgimage {
+
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+   background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+    background-size:cover;
+    /* position:relative; */
+}
+}
+@media only screen and (max-width:700px) {
+    
+    .bgimage {
+    
+        height: 500px;
+        width: 100%;
+        max-width: 100%;
+       background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+        background-size:cover;
+        /* position:relative; */
+    }
+    }
+    @media only screen and (max-width:600px) {
+    
+        .bgimage {
+        
+            height: 440px;
+            width: 100%;
+            max-width: 100%;
+           background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+            background-size:cover;
+            /* position:relative; */
+        }
+        }
+        @media only screen and (max-width:500px) {
+    
+            .bgimage {
+            
+                height: 360px;
+                width: 100%;
+                max-width: 100%;
+               background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+                background-size:cover;
+                /* position:relative; */
+            }
+            }
+             @media only screen and (max-width:199px) {
+    
+        .bgimage {
+        
+            height: 440px;
+            width: 100%;
+            max-width: 100%;
+           background: url('https://imageio.forbes.com/specials-images/imageserve/6271151bcd7b0b7ffd1fa4e2/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960');
+            background-size:cover;
+            /* position:relative; */
+        }
+        }
+
+@media only screen and (max-width:800px)
+{
+    .hero_title
+    {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    .hero_title
+    {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .hero_title
+    {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    .hero_title
+    {
+        font-size: 1.5rem;
+    }
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 40px;
+}
+.hero_desc {
+    font-size: 25px;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    margin-left:50%;
+   
+    transform: translate(-60%, -40%);
+    color: white;
+}
+
+/*@media only screen and (max-width:800px){
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    margin-left:30%;
+   
+    transform: translate(-40%, -40%);
+    color: white;
+}
+}
+@media only screen and (max-width:500px){
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    margin-left:30%;
+   
+    transform: translate(-30%, -40%);
+    color: white;
+}
+}
+*/
+
+
+/* about section image css */
+.imageAboutPage {
+    margin-top: 60px;
+    width: 90%;
+    height: 70%;
+}
+.imageAboutPage:hover
+{
+    transform: scale(1.05,1.20);
+    border: 0.5px #0079d5 solid;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+    transform: scale(1,2);
+}
+.servicesText:hover {
+    border: 0.5px #0079d5 solid;
+    transform: scale(1,1.10);
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.card:hover
+{
+    border: 0.5px #0079d5 solid;
+    transform: scale(1,1.10);
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.img1
+{
+    margin-left: 120px;
+}
+
+.card-text
+{
+
+}
